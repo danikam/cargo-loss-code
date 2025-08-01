@@ -1,0 +1,60 @@
+SIMULATION NAV {
+                
+    # model definition
+    INCLUDE "../../includes_global/model_definition.inc"
+    INCLUDE "../includes_local/bunker_logistics_ammonia.inc"
+    
+    # fleets
+    INCLUDE "../../includes_global/fleet_ammonia.inc"
+    
+    # fuels
+    INCLUDE "../../includes_global/ammonia.inc"
+    INCLUDE "../../includes_global/low_sulfur_fuel_oil.inc"
+    
+    # Route
+    INCLUDE "../../includes_global/route.inc"
+    
+    # costs and emission of fuels
+    INCLUDE "../../includes_global/cost_ammonia.inc"
+    INCLUDE "../../includes_global/cost_lsfo.inc"
+    
+    # center default emissions
+    IMPORT CenterDefaultEmissions
+    
+    # output results to excel
+    INCLUDE "../../includes_global/make_excel.inc"
+
+    # Modified tank definitions
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_bulk_carrier_capesize.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_bulk_carrier_handy.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_bulk_carrier_panamax.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_container_15000_teu.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_container_3500_teu.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_container_8000_teu.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_gas_carrier_100k_cbm.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_tanker_100k_dwt.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_tanker_300k_dwt.inc"
+    INCLUDE "../../NavigaTE_inputs/Tank_Modified/main_ammonia_tanker_35k_dwt.inc"
+    
+    # Modified vessel definitions
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/bulk_carrier_capesize_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/bulk_carrier_handy_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/bulk_carrier_panamax_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/container_15000_teu_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/container_3500_teu_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/container_8000_teu_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/gas_carrier_100k_cbm_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/tanker_300k_dwt_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/tanker_100k_dwt_ice_ammonia.inc"
+    INCLUDE "../../NavigaTE_inputs/Vessel_Modified/tanker_35k_dwt_ice_ammonia.inc"
+
+
+}
+
+SIMULATION FT {
+    # time steps
+    INCLUDE "../../includes_global/time_steps_yearly.inc"
+}
+
+
+

@@ -1,0 +1,6 @@
+single_pathway_full_fleet/*/*.ilp
+single_pathway_full_fleet/*/*.prt
+single_pathway_full_fleet/*/*.lp
+.DS_Store
+__pycache__
+single_pathway_full_fleet/*/plots

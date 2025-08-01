@@ -1,0 +1,23 @@
+argparse  # Built-in for Python >=3.2, but included here for completeness
+cycler==0.11.0
+fiona
+fonttools
+geopandas
+gurobipy==12.0.1
+joblib
+matplotlib==3.9.2
+numpy==1.26.4
+openpyxl
+pandas==2.2.2
+parse
+pillow
+pyparsing
+pyproj
+requests
+Rtree
+scikit-learn
+scipy==1.13.1
+seaborn==0.13.2
+shapely
+six
+tornado
