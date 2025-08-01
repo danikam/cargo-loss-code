@@ -35,7 +35,7 @@ As discussed above, `run_all.sh` will automatically check if the `navigate` comm
 * `NavigaTE_inputs/Vessel_Nominal`: Default include (.inc) files used by the NavigaTE model to define representative bulk carrier, container, tanker, and gas carrier vessels. Cargo capacities of all alternative fuel vessels are equal to that of the conventional fuel oil vessel for the nominal vessels. Note that the liquid hydrogen and compressed hydrogen vessels are not present in the default NavigaTE inputs, and vessel design parameters for these vessels are currently copied from the NavigaTE defaults for ammonia. 
 * `NavigaTE_inputs/Tank_Nominal`: Default include (.inc) files used by the NavigaTE model to define tanks for the representative vessels defined in `NavigaTE_inputs/Vessel_Nominal`. Nominal capacities of alternative fuel tanks are equal to that of the conventional fuel oil vessel for the nominal vessels. As above, liquid hydrogen and compressed hydrogen tanks are not present in the default NavigaTE inputs, and tank design parameters for these vessels are currently copied from the NavigaTE defaults for ammonia. 
 
-Note that `NavigaTE_inputs/Vessel_Modified` and `NavigaTE_inputs/Tank_Modified` are automatically populated by 
+    Note that `NavigaTE_inputs/Vessel_Modified` and `NavigaTE_inputs/Tank_Modified` are automatically populated when `source/modify_tanks_and_cargo_capacity.py` is executed.
 
 * `NavigaTE_inputs/Other_NavigaTE_Defaults`: Other default NavigaTE model input files used to calculate and analyze cargo losses and associated cargo transport cost impacts. These include:
   * `Converter` and `PowerSystem` directories: Contain files used to define costs and design specifications for each vessel's propulsion, electrical, and heat power systems.
