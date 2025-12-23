@@ -4,6 +4,8 @@ authors:
 - family-names: "Eamer"
   given-names: "Danika"
   orcid: "https://orcid.org/0000-0001-5533-6300"
+- family-names: "Stamatelopoulos"
+  given-names: "Stamatis"
 title: "Calculation and Analysis of Cargo Losses with Alternative Fuels"
 version: 0.1.1
 doi: 10.5281/zenodo.18037261
