@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Eamer"
+  given-names: "Danika"
+  orcid: "https://orcid.org/0000-0001-5533-6300"
+title: "Calculation and Analysis of Cargo Losses with Alternative Fuels"
+version: 0.1.1
+doi: 10.5281/zenodo.18037261
+date-released: 2025-12-23
+url: "https://github.com/danikam/cargo-loss-code"
