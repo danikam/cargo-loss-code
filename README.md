@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1029872802.svg)](https://doi.org/10.5281/zenodo.18037261)
+
 # Calculation and Analysis of Cargo Losses with Alternative Fuels
 This repo contains input files and analysis code used to calculate and analyze tank scaling factors and resulting vessel cargo losses and cargo transport cost impacts associated with transitioning vessels to alternative fuels. 
 
